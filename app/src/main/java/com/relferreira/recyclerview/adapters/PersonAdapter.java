@@ -36,7 +36,7 @@ public class PersonAdapter extends RecyclerView.Adapter<PersonAdapter.PersonView
         return mList.size();
     }
 
-    public static class PersonViewHolder  extends RecyclerView.ViewHolder{
+    protected static class PersonViewHolder  extends RecyclerView.ViewHolder{
 
         protected TextView viewName;
         protected TextView viewLastName;

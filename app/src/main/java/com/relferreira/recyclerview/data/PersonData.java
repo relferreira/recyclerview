@@ -17,4 +17,8 @@ public class PersonData {
         list.add(new Person("Ferreira", "Renan", 23));
         return list;
     }
+
+    public static Person newPerson(){
+        return new Person("teste", "este", 20);
+    }
 }
